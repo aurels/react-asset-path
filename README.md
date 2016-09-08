@@ -21,7 +21,7 @@ Require the javascript file in `app/assets/javascripts/application.js`:
   Anywhere in your JS/ES files :
 
   ```js
-  railsAssetPath('logo-phonoid.png')
+  railsAssetPath('logo-phonoid.png') # => /assets/phonoid-logo-c18477115655db9fa98674fc31af6050.png
   ```
 
 ## Contributing
