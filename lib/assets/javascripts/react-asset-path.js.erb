@@ -2,10 +2,10 @@ var ReactAssetPath = {
   mapping: <%= ReactAssetPath.mapping.to_json %>,
 
   assetPath: function(assetName) {
-    return RailsAsset.mapping[assetName];
+    return ReactAssetPath.mapping[assetName];
   }
 };
 
 window.railsAssetPath = function(path) {
-  ReactAssetPath.assetPath(path);
+  return ReactAssetPath.assetPath(path);
 };
