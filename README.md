@@ -1,6 +1,7 @@
 # react-asset-path
 
 A helper to be able to use Rails' `asset_path` inside of components.
+Highly inspired by [react-rails-img](https://github.com/rainchen/react-rails-img).
 
 ## Installation
 
@@ -21,7 +22,8 @@ Require the javascript file in `app/assets/javascripts/application.js`:
   Anywhere in your JS/ES files :
 
   ```js
-  railsAssetPath('logo-phonoid.png') # => /assets/phonoid-logo-c18477115655db9fa98674fc31af6050.png
+  railsAssetPath('logo-phonoid.png')
+  # => /assets/phonoid-logo-c18477115655db9fa98674fc31af6050.png
   ```
 
 ## Contributing
