@@ -4,17 +4,13 @@ A helper to be able to use Rails' `asset_path` inside of components.
 
 ## Installation
 
-1. Add this line to your application's Gemfile:
+Add this line to your application's Gemfile:
 
 ```ruby
 gem 'react-asset-path'
 ```
 
-And then execute:
-
-    $ bundle
-
-2. Require the javascript file in `app/assets/javascripts/application.js`:
+Require the javascript file in `app/assets/javascripts/application.js`:
 
   ```js
   //= require react-asset-path
