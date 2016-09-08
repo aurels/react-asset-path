@@ -12,3 +12,4 @@ log/
 /spec/dummy/tmp/
 .byebug_history
 .ruby-version
+*.gem
